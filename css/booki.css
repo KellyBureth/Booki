@@ -1,0 +1,1687 @@
+h1
+{
+    font-family: 'raleway';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.h1margin
+{
+    margin-left: 5%;
+}
+
+h2
+{
+    font-family: 'raleway';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p
+{
+    font-family: 'raleway';
+    font-size: 18px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.main_wrapper
+{
+    padding: 30px;
+}
+
+
+.hebergements, .populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+}
+
+.hebergements_et_populaires /*section hebergement et aside populaire side by side*/
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hebergements 
+{
+    width: 70%;
+    margin-right: 40px;
+}
+
+
+.populaires 
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.first_line, .second_line
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+/*HEBERGEMENTS*/
+.auberge_la_cannebiere, .hotel_du_port, .hotel_les_mouettes, .hotel_de_la_mer, .auberge_le_panier, .hotel_chez_amina
+{
+    border: 5px white solid;
+    background-color: white;
+    border-radius: 30px;
+    width: 270px; 
+    height: 245px;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+}
+
+
+
+
+/*POPULAIRES*/
+.hotel_le_soleil_du_matin, .au_coeur_de_leau, .hotel_tout_bleu_et_blanc
+{
+    border: 5px white solid;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    display: flex;
+    
+    height: 175px;
+    width: 380px;
+
+}
+
+.hotel_tout_bleu_et_blanc
+{
+    border: 5px white solid;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    display: flex;
+
+}
+
+
+
+.img_populaires
+{
+    border-radius: 25px 0 0 25px;
+    width: 145px;
+    height: 175px;
+}
+
+
+
+
+
+img
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    height: 130px; 
+}
+
+
+
+.a_populaires
+{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+
+}
+
+
+
+
+
+.white_bgd
+{
+    border: 5px white solid;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    border-radius: 0 0 20px 20px;
+    margin-left: -5px;
+    padding-bottom: 30px;
+}
+
+
+
+.white_bgd_populaires
+{
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    width: 240px;
+    border: none;
+    justify-content: space-between;
+}
+
+
+.white_bgd_populaires p
+{  
+    justify-content: center;
+}
+
+
+
+.white_bgd h2, .white_bgd p, .white_bgd .star 
+{
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+
+
+.white_bgd_populaires h2, .white_bgd_populaires p
+{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.white_bgd_populaires .star 
+{
+    margin: 50px auto 10px 15px;
+}
+
+
+
+
+.star 
+{
+    line-height: 0;
+}
+
+
+.populaire_icone
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;  
+}
+
+.see_more
+{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+.pstar
+{
+    justify-content: space-between;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+a:active
+{
+    color: black;
+}
+
+
+/*HEBERGEMENT AND POPULAIRES HOVER*/
+
+.auberge_la_cannebiere:hover, .hotel_du_port:hover, .hotel_les_mouettes:hover, .hotel_de_la_mer:hover, .auberge_le_panier:hover, .hotel_chez_amina:hover, .white_bgd:hover, .hotel_le_soleil_du_matin:hover, .au_coeur_de_leau:hover, .hotel_tout_bleu_et_blanc:hover
+{
+    background-color: #DEEBFF;
+    border: 5px #DEEBFF solid;
+} 
+
+.white_bgd_populaires:hover
+
+{
+    background-color: #DEEBFF;
+} 
+
+
+img:hover + .white_bgd /*hover img affect whte_bgd background color. + because .white_bgd follow img in html*/
+{
+    background-color: #DEEBFF;
+    border: 5px #DEEBFF solid;
+}
+
+
+.a_populaires:hover + .white_bgd_populaires 
+{
+    background-color: #DEEBFF;
+    border: 5px #DEEBFF solid;
+}
+
+
+
+.auberge_la_cannebiere:hover > .white_bgd, .hotel_du_port:hover > .white_bgd, .hotel_les_mouettes:hover > .white_bgd, .hotel_de_la_mer:hover > .white_bgd, .auberge_le_panier:hover > .white_bgd, .hotel_chez_amina:hover > .white_bgd 
+{
+    background-color: #DEEBFF;
+    border: 5px #DEEBFF solid;
+}
+
+.hotel_le_soleil_du_matin:hover > .white_bgd_populaires, .au_coeur_de_leau:hover > .white_bgd_populaires, .hotel_tout_bleu_et_blanc:hover > .white_bgd_populaires
+{
+    background-color: #DEEBFF;
+}
+
+
+
+
+
+
+
+
+/*END OF THE SECTION "HEBERGEMENTS ET ACTIVITES"*/
+
+
+
+/*HEADER*/
+
+.logo
+{
+    width: 100px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
+.img_et_nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav
+{
+    align-items: flex-start;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 330px;
+}
+
+
+
+li
+{
+    list-style-type: none;
+    font-family: 'raleway';
+    font-size: 18px;
+    padding-top: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+li:hover 
+{   
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+
+
+
+/*RECHERCHE*/
+
+form
+{
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+
+
+
+
+
+form i /*svg localisation*/
+{
+    border: 2px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.search /*search input*/
+{
+    color: black;
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
+    border-left: 2px #F2F2F2 solid;
+    border-right: 2px #0065FC solid;
+    padding-left: 15px;
+}
+
+.submit
+{
+    border: none;
+    color: white;
+    background-color: #0065FC;
+    padding: 10px 10px;
+    border-radius: 0 10px 10px 0;
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.submit_loupe /*submit button to smartphone*/
+{
+    visibility: hidden;
+}
+
+
+
+/*FILTRE*/
+
+
+.filtre
+{
+    display: flex;
+}
+
+.filtre p
+{
+    margin-right: 20px;
+    justify-content: space-evenly;
+    font-family: 'raleway';
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.title_filtre
+{    
+    margin-left: 0;
+}
+
+.filtre div p
+{   
+    margin-left: 20px;
+}
+
+
+
+.filtre div
+{
+    display: flex;
+    align-items: center;
+    border: 2px #cfcfcf solid;
+    border-left: none;
+    border-radius: 30px 40px 40px 30px;
+    margin-right: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.filtre div:hover
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.filtre div:hover i
+{
+    background-color: #0065FC;
+    color: white;
+}
+
+
+.filtre i 
+{
+    background-color: #DEEBFF;
+    border-radius: 40px;
+    padding: 15px;
+    color: #0065FC;
+    margin: -2px -5px;  /*-2 to cover top and bottom border and -5 cover left border*/
+    width: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*INFO*/
+
+.info
+{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info i
+{
+    border: 1px #c0c0c0 solid;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/*ACTIVITY*/
+
+#ancre_activite
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.activity
+{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    
+}
+
+
+.vieux_port, .calanques  /*2 activity portrait format*/
+{
+    background-color: white;
+    border-radius: 30px;
+    width: 330px; 
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    height: 500px;
+}
+
+.pomegues_frioul, .basilique_longchamp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+
+.pomegues_frioul a:first-child /*div pomegues*/
+{
+    height: 265px;
+}
+
+
+.pomegues_frioul a:last-child /*div fioul*/
+{
+    height: 185px;
+}
+
+
+
+.basilique_longchamp a:first-child /*div basilique*/
+{
+    height: 217px;
+}
+
+.basilique_longchamp a:last-child /*div longchamp*/
+{
+    height: 235px;
+}
+
+
+
+
+
+
+.pomegues, .basilique 
+{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    width: 330px;
+    height: 100%;
+}
+
+
+.frioul, .longchamp 
+{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    width: 330px;
+    height: 100%;
+}
+
+
+
+.vieux_port img, .calanques img
+{
+    height: 435px;
+    object-fit: cover;
+}
+
+
+
+.pomegues img
+{
+    object-fit: cover;
+    height: 200px;
+    object-position: 0 40%;
+}
+
+
+
+.frioul img
+{
+    object-fit: cover;
+    height: 120px;
+    object-position: 0 20%; /*to place the image exactly like in the model : 1st value x 50=middle 30%=to the left 70% to the right. 2nd value y 50%=middle 30%=to the bottom 70%=to the top*/
+}
+
+
+
+.basilique img
+{
+    object-fit: cover;
+    height: 155px;
+    object-position: 0 0;
+}
+
+
+
+.longchamp img
+{
+    object-fit: cover;
+    height: 170px;
+    object-position: 0 10%;
+}
+
+
+
+
+
+.pomegues h2, .basilique h2, .frioul h2,.longchamp h2, .vieux_port h2, .calanques h2
+{
+    margin: 15px 0 0 5%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/*ACTIVITY HOVER*/
+
+.vieux_port:hover, .pomegues:hover, .frioul:hover, .calanques:hover, .basilique:hover, .longchamp:hover
+{
+    background-color: #DEEBFF;
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fpropos
+{
+    margin: 10px 50px 10px 40px;
+}
+
+.fhebergement
+{
+    
+    margin: 10px 150px 10px 150px;
+}
+
+.fassistance
+{
+    
+    margin: 10px 150px 10px 150px;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+
+/*RESPONSIVE DESKTOP BTW 992PX AND 1500PX*/
+
+
+/*HEBERGEMENT, POPULAIRE AND ACTIVITY WRAP WHEN WIDOWS REDUCED TO CORRECT BREAKING POINT BTW 990 AND 1500PX DESKTOP RESOLUTION*/
+
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1439px)
+{
+
+.hebergements_et_populaires, .activity
+{
+    flex-wrap: wrap;
+}
+
+
+.hebergements
+{
+    width: 100%;
+    margin-right: 0;
+}
+
+
+.populaires
+{
+    flex-direction: row; 
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.a_populaires
+{
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.populaire_icone
+{
+    width: 100%;
+}
+
+
+.first_line div, .second_line div
+{
+    width: 300px;
+}
+
+
+.hotel_le_soleil_du_matin, .au_coeur_de_leau, .hotel_tout_bleu_et_blanc
+{
+    border: 5px white solid;
+    background-color: white;
+    border-radius: 30px;
+    height: 270px;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    margin-bottom: 50px;
+    width: 300px;
+    display: inherit;
+}
+
+
+
+.img_populaires
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    height: 145px;
+}
+
+
+
+.white_bgd_populaires
+{
+    border: 5px white solid;
+    background-color: white;
+    width: 300px;
+    height: 65px;
+    border-radius: 0 0 20px 20px;
+    margin-left: -5px;
+    padding-bottom: 30px;
+    justify-content: initial;
+}
+
+
+.white_bgd_populaires h2, .white_bgd_populaires p
+{
+    margin: 0 auto 15px 15px;
+    width: 200px;
+}
+
+
+.white_bgd_populaires .star
+{
+    margin: 0 auto 0 15px;
+}
+
+
+
+
+
+.activity
+{       
+    justify-content: space-evenly;
+    height: initial;
+    flex-wrap: wrap;
+}
+
+
+.vieux_port, .calanques, .basilique_longchamp, .pomegues_frioul
+{
+    margin: 65px;
+}
+
+.h1margin
+{
+    margin: 50px auto 50px 5%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+/*RESPONSIVE FOR TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+
+
+    .main_wrapper
+        {
+            width: 100%;
+            padding: 0;
+        }
+
+
+    /*HEADER*/
+
+
+    h1, p, .search, h2, .star
+        {
+            text-align: center;
+        }
+
+
+    .info
+        {
+            justify-content: center;
+        }
+
+
+    .filtre
+        {
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+
+    .filtre div 
+        {
+            margin-right: 0;
+        }
+
+
+    .filtre > p /*hide 1st p witch follow .filtre*/
+        {
+            display: none;
+        }
+
+
+    .filtre p 
+        {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
+    .filtre i  /*cover 2px of the filtre border*/
+        {
+            margin: -2px -5px;
+        }
+
+
+    .recherche form
+        {
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+    .submit_loupe
+        {
+            display: none;
+        }
+
+
+
+
+    /*HEBERGEMENT*/
+
+
+
+    .hebergements_et_populaires /*populaire before hebergements*/
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    .hebergements
+        {
+            width: 100%;
+            border-radius: 30px 30px 0 0;
+            margin-right: 0;
+        }
+
+
+    .hotel 
+        {
+            display: flex;
+        }
+
+    .first_line, .second_line
+        {
+            flex-wrap: wrap;
+            padding-bottom: 0;
+        }
+
+
+    .hebergements .first_line a div, .hebergements .second_line a div 
+        {
+            margin-bottom: 50px;
+            width: 300px;
+            
+        }
+
+
+    .auberge_la_cannebiere, .hotel_du_port, .hotel_les_mouettes, .hotel_de_la_mer, .auberge_le_panier, .hotel_chez_amina
+    {
+        height: 260px;
+    }
+
+
+    .hebergements img 
+        {
+            height: 150px;
+        }
+
+
+    .see_more
+        {
+            margin: 0 0 50px 0;
+        }
+
+
+
+    /*POPULAIRES*/
+
+
+    .populaires
+{
+    flex-direction: row; 
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 0 0 30px 30px;
+}
+
+
+.a_populaires
+{
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.populaire_icone
+{
+    width: 100%;
+}
+
+
+.first_line div, .second_line div
+{
+    width: 300px;
+}
+
+
+.hotel_le_soleil_du_matin, .au_coeur_de_leau, .hotel_tout_bleu_et_blanc
+{
+    border: 5px white solid;
+    background-color: white;
+    border-radius: 30px;
+    height: 270px;
+    box-shadow: 5px 5px 20px #b4b4b48e;
+    margin-bottom: 50px;
+    width: 240px;
+    display: inherit;
+}
+
+
+
+.img_populaires
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    height: 145px;
+}
+
+
+
+.white_bgd_populaires
+{
+    border: none;
+    background-color: white;
+    width: 240px;
+    height: 65px;
+    border-radius: 0 0 20px 20px;
+    margin-left: -5px;
+    padding-bottom: 30px;
+    justify-content: initial;
+}
+
+
+.white_bgd_populaires h2, .white_bgd_populaires p
+{
+    margin: 0 auto 15px 15px;
+    width: 200px;
+}
+
+
+.white_bgd_populaires .star
+{
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+
+.activity
+{       
+    justify-content: space-evenly;
+    height: initial;
+    flex-wrap: wrap;
+}
+
+
+
+.h1margin
+{
+    margin: 50px auto 50px auto;
+}
+
+
+.activity h2
+{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+    /*ACTIVITE*/
+
+    .activity
+        {       
+            justify-content: space-evenly;
+            height: initial;
+            flex-wrap: wrap;
+        }
+
+
+    .vieux_port
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+    .pomegues_frioul
+    {
+        margin-top: 50px;
+    }
+
+
+    .activity h2 
+    {
+        justify-content: center;
+    }
+
+    .first_line h2, .first_line p, .first_line .star, .second_line h2, .second_line p, .second_line .star
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*FOOTER*/
+
+    footer 
+        {
+            justify-content: space-evenly;
+        }
+
+    footer div 
+        {
+            margin: auto;
+            width: 30%;
+        }
+
+    .fpropos, .fhebergement, .fassistance
+        {
+            
+            margin: 0;
+        }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+
+
+
+/*RESPONSIVE FOR SMARTPHONE*/
+
+@media (max-width: 767px) 
+{
+
+    html 
+        {
+            width: 250%;
+        }
+
+
+    header > p
+        {
+            font-size: 40px;
+        }
+
+    .main_wrapper
+        {
+            overflow-wrap: break-word;
+        }
+
+
+
+    div
+        {
+            word-wrap: break-word;
+        }
+
+
+
+
+
+
+    /*HEADER*/
+
+
+        
+    .logo
+        {
+            width: 200PX;
+            height: 100px;
+            margin-left: 40%;
+            margin-top: 0;
+        }
+
+
+
+
+    .img_et_nav
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        
+    ul 
+        {
+            width: 100%;
+            justify-content: space-around;
+            
+        }
+
+
+    ul li
+        {
+            width: 100%;
+            border-bottom: 5px #F2F2F2 solid;
+            padding-bottom: 35px;
+        }
+
+
+        
+
+    ul li:hover
+        {
+            width: 100%;
+            border-bottom: 5px #0065FC solid;
+        }
+
+    li 
+        {
+            font-size: 40px;
+            width: 100%;
+        }
+
+
+
+    li:hover 
+        {
+            color: #0065FC;
+            border-top: none;
+        }
+
+
+
+
+
+    h1 
+        {
+            font-size: 50px;
+            font-family: 'raleway';
+            padding-top: 20px;
+        }
+
+
+    h1, div p, .recherche, .filtre div, .info i
+        {
+            margin-left: 50px;
+        }
+
+
+    .recherche /*localisation icon+search input+submit button*/
+        {
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+
+    form > i /*the 1st i inside form*/
+        {
+            padding: 20px 30px;
+            border-radius: 20px 0 0 20px;
+            font-size: xx-large;
+        }
+
+
+    .search
+        {
+            font-size: 40px;
+            font-family: 'raleway';
+            border-right: none;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+
+
+
+    .submit /*hide "rechercher" button to replace by magnifying glass icon*/
+        {
+            display: none;
+        }
+
+
+    .submit_loupe  /*magnifying glass*/
+        {
+            visibility: visible;
+            border: none;
+            color: white;
+            background-color: #0065FC;
+            padding: 10px 15px;
+            border-radius: 20px 20px;
+            margin-left: -20px;
+            font-size: xx-large;
+        }
+
+
+    .submit_loupe i
+        {
+            color: white;
+            background-color: #0065FC;  
+            border: none;          
+        }
+
+
+        /*FILTRES*/
+
+    .filtre
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+    .filtre div 
+        {
+            border-radius: 40px 50px 50px 40px;
+            border: 3px #cfcfcf solid;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+
+
+    .filtre p  /*p "filtres"*/
+        {
+            display: inline;
+            width: 100%;
+            font-size: 40px;
+            margin-top: 40px;
+        }
+
+
+
+    .filtre div p  /*each p inside filter div*/
+        {
+            display: inline;
+            width: 100%;
+            font-size: 40px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+    .filtre i 
+        {
+            padding: 35px;
+            margin-left: -15px;
+            font-size: xx-large;
+            border-radius: 50px;
+            width: auto;
+        }
+
+
+    .info i 
+        {
+            font-size: x-large;
+            padding: 13px 20px;
+            border-radius: 50px;
+        }
+
+
+
+
+    .info p
+        {
+            margin-left: 15px;
+            font-size: 35px;
+            width: 70%
+        }
+
+
+
+
+
+
+
+
+    .hebergements_et_populaires /*populaire before hebergements*/
+        {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+
+
+    /*POPULAIRES*/
+
+
+    .populaires
+        {
+            width: 100%;
+            border-radius: 0;
+            margin-bottom: 0px;
+        }
+
+
+    .populaire_icone i 
+        {
+            font-size: xxx-large;
+        }
+
+
+    .hotel_le_soleil_du_matin, .au_coeur_de_leau, .hotel_tout_bleu_et_blanc
+        {
+            margin-bottom: 30px;
+            margin-left: 30px;
+            margin-right: 0px;
+            width: 90%;
+            height: 100%;
+            border: 10px white solid;
+        }
+
+
+    .hotel_tout_bleu_et_blanc
+        {
+            margin-bottom: 80px;
+        }
+
+
+    .img_populaires
+        {
+            flex: 2;
+            height: 350px;
+        }
+
+    .hotel_tout_bleu_et_blanc .img_populaires
+        {
+            width: 55%;
+        }
+
+
+    .white_bgd_populaires
+        {
+            justify-content: space-between;
+            height: auto;
+            width: auto;
+            flex: 3;
+        }
+
+
+    .white_bgd_populaires h2
+        {
+            font-size: 40px;
+            margin-left: 30px;
+            width: 80%;
+        }
+
+        
+
+    .white_bgd_populaires p
+        {
+            font-size: 30px;
+            margin-left: 30px;
+        }
+
+
+    .white_bgd_populaires .star
+        {
+            font-size: xx-large;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+
+
+    /*HEBERGEMENTS*/
+
+
+
+          
+
+    .hebergements
+        {
+            background-color: white;
+            width: 100%;
+            margin-right: 0;
+            border-radius: 0;
+        }
+
+
+
+    .first_line, .second_line
+        {
+            flex-direction: column;
+            padding-bottom: 0;
+        }
+
+
+    .auberge_la_cannebiere, .hotel_du_port, .hotel_les_mouettes, .hotel_de_la_mer, .auberge_le_panier, .hotel_chez_amina
+        {
+            margin-bottom: 30px;
+            margin-left: 30px;
+            margin-right: 0px;
+            width: 90%;
+            height: auto;
+            border: 10px white solid;
+        }
+
+  
+
+
+    img
+        {
+            height: 250px;
+        }
+
+
+
+    .white_bgd
+        {
+            height: auto;
+            border: none;
+            padding-bottom: 0;
+        }
+
+
+    .white_bgd h2
+        {
+            font-size: 40px;
+            margin-left: 30px;
+            width: 80%;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        
+
+    .white_bgd p
+        {
+            font-size: 30px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+
+    .white_bgd .star
+        {
+            font-size: xx-large;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+
+    .see_more
+        {
+            font-size: 40px;
+        }
+
+
+
+
+
+
+    /*ACTIVITE*/
+
+    .activity
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 0;
+    }
+
+
+
+    .activity a
+        {
+            margin: auto;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+
+
+    .vieux_port, .pomegues, .frioul, .calanques, .basilique, .longchamp
+        {
+            margin-bottom: 50px;
+            margin-left: 30px;
+            margin-right: 0px;
+            width: 90%;
+            height: auto;
+        }
+
+
+    .vieux_port img, .frioul img, .calanques img, .basilique img, .longchamp img
+        {
+            height: 350px;
+            object-fit: cover;
+            object-position: 0 5%;
+        }
+
+
+    .pomegues img
+        {
+            height: 350px;
+            object-fit: cover;
+            object-position: 0 40%;
+        }
+
+
+    .pomegues_frioul, .basilique_longchamp 
+        {
+            display: initial;
+            flex-direction: initial;
+            height: initial;
+        }
+
+
+    .activity h2
+        {
+            font-size: 40px;
+            margin-top: 40px;
+            padding-bottom: 40px;
+
+        }
+
+
+
+     /*FOOTER*/
+
+
+
+
+    footer 
+        {
+            flex-direction: column;
+            text-align: left;
+        }
+
+    .fpropos, .fhebergement, .fassistance
+        {
+            margin: 10px 50px 10px 80px;
+        }
+
+    footer h2, footer p
+        {
+            font-size: 40px;
+            margin-left: 0;
+        }
+
+    
+
+}
+
+
+
+
